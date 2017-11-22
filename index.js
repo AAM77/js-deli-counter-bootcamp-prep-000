@@ -18,8 +18,13 @@ function nowServing(deliLine) {
   else {
     for (var inLinePosition = (deliLine.length); inLinePosition > 0; inLinePosition--) {
       var servingMessage = `Currently serving ${deliLine[0]}.`;
+<<<<<<< HEAD
       newLine.shift(0);
       return (servingMessage);
+=======
+      return (servingMessage);
+      newLine.shift(0);
+>>>>>>> a461387e6307b61567472464596409fda8000972
       }
     }
   }
